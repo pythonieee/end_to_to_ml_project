@@ -12,7 +12,7 @@ def get_requirements(file_path:str)->List[str] :
 
         if hyphen_e_dot in requiments:
             requiments.remove(hyphen_e_dot)
-        return requiments
+        return requiments 
 
 setup(
     name="Mlproject",
